@@ -4,7 +4,7 @@
     <br>
     <br><br>
       <nav>
-        <a href="/home">PÁGINA PRINCIPAL</a> |
+        <a href="/home">PÁGINA PRINCIPALasfasdf</a> |
         <a href="/libros">MIS LIBROS</a> 
     </nav>
 <br>
