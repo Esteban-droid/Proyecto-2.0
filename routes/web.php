@@ -24,3 +24,5 @@ Route::resource('/libros', 'LibroController')->middleware('auth');
 Route::resource('editoriales', 'EditorialController')->middleware('auth'); //El profe me hizo poner esto 
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('/informacion', 'InfoController')->middleware('auth');

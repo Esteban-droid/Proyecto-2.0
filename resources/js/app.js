@@ -26,6 +26,7 @@ import axios from 'axios' //El profe me hizo poner esto
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('libros', require('./components/libros.vue').default);
+Vue.component('informacion', require('./components/informacion.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

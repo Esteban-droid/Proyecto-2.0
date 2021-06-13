@@ -1,16 +1,13 @@
 <template>
-  <div id="principal-page">
+  <div id="informacion-page">
     <img alt="Psico logo" src="http://127.0.0.1:8000/storage/psicologiaa.png">
     <br>
     <br><br>
-      <nav>
-        <a href="/home">PÁGINA PRINCIPALasfasdf</a> |
-        <a href="/libros">MIS LIBROS</a> 
-        <a href="/informacion">MAYOR INFORMACIÓN</a> 
-    </nav>
+
 <br>
-    <!--<div id="band" class="container text-center">
+    <div id="band" class="container text-center">
         <h3>PsychoBooks</h3>
+        <button type="button" class="btn btn-success" @click="pagina_principal()">Página Principal</button>
         <p><em>We love knowledge!</em></p>
         <p>Esta aplicación ofrece una herramienta que facilita la gestión de documentos personales del 
             profesional psicólogo/a, otorgando un grado más de organización en su quehacer. 
@@ -37,7 +34,7 @@
                 <img src="http://127.0.0.1:8000/storage/afueraa.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
             </div>
         </div>
-    </div>-->
+    </div>
   </div>
 </template>
 
@@ -45,12 +42,18 @@
     export default {
         mounted() {
             console.log('Component mounted.')
+            },
+
+        methods:{
+            pagina_principal() {
+      location.href = "/home";
+    },
         }
     }
 </script>
 
 <style>
-    #principal-page {
+    #informacion-page {
         text-align: center;
         background-image:url('http://127.0.0.1:8000/storage/book.jpg');
         background-size:cover;
