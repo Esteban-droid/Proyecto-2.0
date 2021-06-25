@@ -4,7 +4,7 @@
     <br>
     <br><br>
     <nav>
-        <a href="/home" style="color:black">PÁGINA PRINCIPAL |</a>
+        <a href="/home" style="color:black">PÁGINA PRINCIPALasadasdasd |</a>
         <a href="/libros" style="color:black">MIS LIBROS |</a>
         <a href="/informacion" style="color:black">MAYOR INFORMACIÓN</a> 
     </nav>
