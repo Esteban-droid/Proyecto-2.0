@@ -1,3 +1,9 @@
+import Vue from 'vue'
+//import Vuetify from '../plugins/vuetify'
+//import App from './components/ExampleComponent'
+import Vuetify from 'vuetify'
+import "vuetify/dist/vuetify.min.css"
+
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -12,6 +18,8 @@ require('./bootstrap');
 window.Vue = require('vue');
 import axios from 'axios' //El profe me hizo poner esto
 //vue.use(axios);
+
+
 
 /**
  * The following block of code may be used to automatically register your
@@ -34,7 +42,13 @@ Vue.component('informacion', require('./components/informacion.vue').default);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+ Vue.use(Vuetify)
+
 const app = new Vue({
+    //new Vue({
+    vuetify : new Vuetify(),
+    //Vuetify,
     el: '#app',
-    axios
-});
+    axios,
+    //render: (h) => h(App)
+})//.$mount('#app');

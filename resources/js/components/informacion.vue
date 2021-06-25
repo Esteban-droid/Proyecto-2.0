@@ -6,8 +6,9 @@
 
 <br>
     <div id="band" class="container text-center">
-        <h3>PsychoBooks</h3>
+        <h3 style="color:black">PsychoBooks</h3>
         <button type="button" class="btn btn-success" @click="pagina_principal()">Página Principal</button>
+        <br><br>
         <p><em>We love knowledge!</em></p>
         <p>Esta aplicación ofrece una herramienta que facilita la gestión de documentos personales del 
             profesional psicólogo/a, otorgando un grado más de organización en su quehacer. 
@@ -68,5 +69,8 @@
     }
     a{
         color: #fff;
+    }
+    p{
+        color: black;
     }
 </style>
